@@ -1,0 +1,51 @@
+[
+  {
+    "id": "food_preferences_001",
+    "conversation": [
+      "User: I am allergic to peanuts.",
+      "User: I like spicy food.",
+      "User: My favorite cuisine is Thai.",
+      "User: I don't eat beef.",
+      "User: I recently moved to Taipei."
+    ],
+    "question": "What food should I recommend to this user?",
+    "ground_truth": [
+      "allergic to peanuts",
+      "likes spicy food",
+      "favorite cuisine is Thai",
+      "doesn't eat beef"
+    ]
+  },
+  {
+    "id": "career_preferences_001",
+    "conversation": [
+      "User: I work as a software engineer.",
+      "User: I prefer remote work.",
+      "User: I am preparing for coding interviews.",
+      "User: I use C++ and Python."
+    ],
+    "question": "What job opportunities should I suggest?",
+    "ground_truth": [
+      "software engineer",
+      "prefers remote work",
+      "preparing for coding interviews",
+      "uses C++ and Python"
+    ]
+  },
+  {
+    "id": "travel_preferences_001",
+    "conversation": [
+      "User: I enjoy quiet travel more than nightlife.",
+      "User: I love hot springs.",
+      "User: I usually travel in autumn.",
+      "User: I prefer mountain towns over big cities."
+    ],
+    "question": "What kind of trip would fit this user?",
+    "ground_truth": [
+      "enjoys quiet travel",
+      "loves hot springs",
+      "travels in autumn",
+      "prefers mountain towns"
+    ]
+  }
+]
